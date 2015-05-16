@@ -10,7 +10,7 @@ The controllers are MVC API Controllers, and out of the box the Test Controller 
 
 It's up to you, then, to write other controllers that extend the pattern!
 
-How you get information into the datatabse, and out of the database, using oAuth, Rest, and http, is all that you need to support uyour IoT Device.
+How you get information into the datatabse, and out of the database, using oAuth, Rest, and http, is all that you need to support your IoT Device.
 
 And everything that you need to do that is here in this Raspberry API!
 
