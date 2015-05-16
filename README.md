@@ -30,9 +30,7 @@ It's just that easy!
 
 For full details, please read our wiki here!
 
-https://github.com/IoTDevices/RaspberryAPI/tree/master/VSIX%20Installer
+https://github.com/IoTDevices/RaspberryAPI/wiki
 
-
-
-Watch this space!
+We will have progressively more written here about the Raspberry API Server, here in the next few weeks!
 
