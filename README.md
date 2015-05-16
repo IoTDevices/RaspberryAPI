@@ -10,7 +10,7 @@ Note: The advantage of using the Visual Studio Extension is that when you go "Fi
 
 <H3>How do I configure it?</H3>
 
-You will have to add your SQL Server connection details to Web.config, as per the following:
+You will first have to add your SQL Server connection details to Web.config, as per the following:
 
 ```
   <connectionStrings>
@@ -18,9 +18,21 @@ You will have to add your SQL Server connection details to Web.config, as per th
   </connectionStrings>
 ```
 
-The first time you Register a user, all of the tables will be automatically generated in the SQL Server database.
+Then, just build and deploy the server!
 
-Note: I need to add the instructions on what information to add to the Clients table, and how to test the server using the Chrome 'Postman' extension.
+The first time you that you Register a user, all of the tables will be automatically generated in the SQL Server database.
+
+Then, you will have to add a row to the clients table, to identify each application that your users can use.
+
+Once you have a minimum of just one row added to that table, you can start testing your server over Http using a client like Chrome's 'Postman' extension.
+
+It's just that easy!
+
+For full details, please read our wiki here!
+
+https://github.com/IoTDevices/RaspberryAPI/tree/master/VSIX%20Installer
+
+
 
 Watch this space!
 
