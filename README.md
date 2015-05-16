@@ -4,7 +4,7 @@ An IoT Device API Server, utilising oAuth2, OWIN, and MVC, over HTTP
 
 But no, it's not to put in the Pi, it's so that the Pi - and other IoT devices just like it - can pass their info into the cloud: although you can host this pretty well anywhere, we recommend hosting it in Windows Azure as an API App!
 
-Once hosted somewhere, your devices - and anyone else's as each devioce can have it's own username - can communicate with it over Http, using Rest, and authenticating using oAuth 2.
+Once hosted somewhere, your devices - and anyone else's as each device can have it's own username - can communicate with it over Http, using Rest, and authenticating using oAuth 2.
 
 The controllers are MVC API Controllers, and out of the box the Test Controller just returns some test dummy items.
 
