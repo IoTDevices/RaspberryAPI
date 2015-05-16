@@ -17,3 +17,10 @@ You will have to add your SQL Server connection details to Web.config, as per th
     <add name="AuthContext" connectionString="Server={put your details here}" providerName="System.Data.SqlClient" />
   </connectionStrings>
 ```
+
+The first time you Register a user, all of the tables will be automatically generated in the SQL Server database.
+
+Note: I need to add the instructions on what information to add to the Clients table, and how to test the server using the Chrome 'Postman' extension.
+
+Watch this space!
+
