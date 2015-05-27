@@ -34,7 +34,7 @@ Then, just build and deploy the server!
 
 The first time you that you Register a user, all of the tables will be automatically generated in the SQL Server database.
 
-Then, you will have to add a row to the clients table, to identify each application that your users can use.
+Then, you will have to add a row to the clients table, to identify each application that your users can use. (see ** note below)
 
 Once you have a minimum of just one row added to that table, you can start testing your server over Http using a client like Chrome's 'Postman' extension.
 
@@ -46,5 +46,5 @@ https://github.com/IoTDevices/RaspberryAPI/wiki
 
 We will have progressively more written here about the Raspberry API Server, here in the next few weeks!
 
-(Note: a device ID has to be added to a table that the Entity Framework auto generates in the SQL Database ... I'll write a script to automate it real soon as to the uninitiated, this won't be so easy just out of the box until I write instructions ... stay tuned, it's upcoming weekend work).
+Notes: ** An application ID has to be added to the Clients table (which the Entity Framework auto generates in the SQL Database) ... I'll write an API Endpoint to automate it really soon as to the uninitiated, this won't be so easy just out of the box until I write instructions ... stay tuned, although it's very simple, it's upcoming weekend work).
 
