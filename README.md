@@ -46,3 +46,5 @@ https://github.com/IoTDevices/RaspberryAPI/wiki
 
 We will have progressively more written here about the Raspberry API Server, here in the next few weeks!
 
+(Note: a device ID has to be added to a table that the Entity Framework auto generates in the SQL Database ... I'll write a script to automate it real soon as to the uninitiated, this won't be so easy just out of the box until I write instructions ... stay tuned, it's upcoming weekend work).
+
